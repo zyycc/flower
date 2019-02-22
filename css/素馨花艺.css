@@ -1,0 +1,336 @@
+/*nav*/
+.nav{
+    width:100% ;
+    height:79px ;
+    border:1px solid #e4eaec;
+  /*  background: #cccccc ;*/
+}
+.navContent {
+    width:1170px ;
+    height:100% ;
+    background: #ffffff;
+    margin:0 auto ;
+}
+.logo{
+    width:150px ;
+    height:50px ;
+/*    background: #1c8bff ;*/
+    float:left;
+    margin-top:14px ;
+}
+.logo a{
+    display: block;
+    width:100% ;
+    height:100% ;
+}
+.logo a img{
+    width: 100%;
+    height:100% ;
+}
+.navList{
+    width:602px ;
+    height:100%;
+    /*background: #83c44e ;*/
+    float: right;
+}
+.navList li {
+    width:86px ;
+    height:100% ;
+    float:left ;
+   /* background: #e400e8;*/
+}
+.navList li a{
+    display: block;
+    width:100% ;
+    height:100% ;
+    text-align: center ;
+    line-height:79px ;
+    font-size:14px ;
+    transition:color linear 0.5s;    /*过渡时间0.5s*/
+}
+.navList li a:hover {
+    color:#16b0dc ;
+}
+
+
+/*banner*/
+/*
+.banner{
+    width:1349px ;
+    height:1089px ;
+    background: #dfdfdf ;
+    border-bottom:1px solid #e4eaec;
+}
+.bannerContent{
+    width:1349px ;
+    height:1066px ;
+    background: #ff6700 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bannerContent1,.bannerContent2{
+    width:1349px ;
+    height:532.5px ;
+    background: #edd069;
+    display: flex;
+    flex-wrap:nowrap;
+}.
+
+.bannerContent1-left,.bannerContent1-right {
+   width:674.5px ;
+    height:532.5px ;
+    background: #f0f2f5 ;
+    position:relative ;
+}
+.bannerContent1-left img,.bannerContent1-right img {
+    width:674.5px ;
+    height:532.5px ;
+    background: #f0f2f5 ;
+    overflow: hidden;
+}
+.bannerContent1-left:hover {
+    transform:scale(1.2)  ;
+    transition:all 1s  ;
+}
+.bannerContent1-leftMiddle {
+    width:120px ;
+    height:137.8px ;
+    background: #ff6700 ;
+    position: absolute;
+    margin:0 auto ;
+  !*  top:200px;
+    left:300px;*!
+}
+!*.bannerContent1-leftMiddle1 {
+    width:120px ;
+    height:137.8px ;
+    background: #ff6700 ;
+    position: absolute;
+    margin:auto    ;
+    top:200px;
+    left:300px;
+}*!
+.bannerContent1-leftMiddle-time {
+    width:120px ;
+    height:38px ;
+    background:#f0f2f5 ;
+    color: #fff;
+    font-size:14px ;
+    line-height:38px ;
+    text-align: center ;
+}
+.bannerContent1-leftMiddle-timeB{
+    width:20px ;
+    height:2px ;
+    background: #fff;
+    margin: auto ;
+}
+
+h3{
+    width:120px ;
+    height:28.8px ;
+    text-align: center ;
+    line-height:28.8px ;
+    color: #fff;
+    font-size: 24px;
+    font-weight:300 ;
+    margin-bottom:20px ;
+    background: #83c44e ;
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+}
+.bannerContent1-leftMiddle-buttom {
+    width:60px ;
+    height:36px ;
+    border:1px solid #e4eaec;
+    font-size:14px ;
+    color: #fff;
+    line-height:36px ;
+    text-align: center ;
+    margin: auto ;
+    border-radius:3px  ;
+}
+
+.bannerContentBottom {
+    width:674.3px ;
+    height:23px ;
+}
+
+*/
+
+/*banner*/
+.banner{
+    width:1349px ;
+    height:1089px ;
+    background: #dfdfdf ;
+    border-bottom:1px solid #e4eaec;
+}
+.bannerContent{
+    width:1349px ;
+    height:1066px ;
+    background: #ff6700 ;
+    display: flex;
+    flex-wrap:wrap;
+}
+.bannerContent1,.bannerContent2{
+    width:1349px ;
+    height:532.5px ;
+    background: #a4b8ff;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.bannerContent1-1,.bannerContent1-1{
+    width:1349px ;
+    height:532.5px ;
+    background: #63f929;
+    position: relative;
+}
+.bannerContent1-1:hover {
+    transform:scale(1.2)  ;
+    transition:all 1s  ;
+    overflow: hidden;
+}
+.bannerContent1-1Middle {
+    width:120px ;
+    height:137.8px ;
+    background: #ff6700 ;
+    position: absolute;
+    top:200px;
+    left:300px;
+}
+
+.bannerContent1-1Middle-time {
+    width:120px ;
+    height:38px ;
+    background:#f0f2f5 ;
+    color: #fff;
+    font-size:14px ;
+    line-height:38px ;
+    text-align: center ;
+}
+.bannerContent1-1Middle-timeB{
+    width:20px ;
+    height:2px ;
+    background: #fff;
+    margin: auto ;
+}
+
+h3{
+    width:120px ;
+    height:28.8px ;
+    text-align: center ;
+    line-height:28.8px ;
+    color: #fff;
+    font-size: 24px;
+    font-weight:300 ;
+    margin-bottom:20px ;
+    background: #83c44e ;
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+}
+.bannerContent1-1Middle-buttom {
+    width:60px ;
+    height:36px ;
+    border:1px solid #e4eaec;
+    font-size:14px ;
+    color: #fff;
+    line-height:36px ;
+    text-align: center ;
+    margin: auto ;
+    border-radius:3px  ;
+}
+
+
+.bannerContent1-1 img,.bannerContent1-2 img{
+    width:674.5px;
+    height:532.5px ;
+
+}
+
+.bannerBottom {
+    width:1349px ;
+    height:23px ;
+}
+.bannerBottomContent  {
+    width:674.5px ;
+    height:23px ;
+    background:#dfdfdf ;
+    line-height:23px ;
+}
+.bannerBottomContent p{
+    color: #2a333c;
+    font-size:14px ;
+}
+.bannerBottomContent:hover{
+    background: #76838f ;
+}
+
+
+
+
+/*footer*/
+.footer{
+    width:100% ;
+    height:183.4px ;
+    border-top:1px solid #f0f2f5; ;
+    background:#f5f5f5;;
+    //padding-bottom:20px ;
+}
+.footerNav{
+    width:100% ;
+    height:20px ;
+    background: #fff; ;
+}
+.footerPic{
+    width:100% ;
+    height:56.8px ;
+    background:#f5f5f5; ;
+}
+.footerPicContent {
+    width:110px ;
+    height:28px ;
+    /*background: #83c44e ;*/
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-top:10px ;
+    line-height:30px ;
+}
+.footerPicContent img{
+    width:29px ;
+    height:28px ;
+}
+.footerPicContent img a{
+    transition:color linear 0.5s;
+}
+.footerText{
+    width:100% ;
+    height:75.6px ;
+   /* background:#F1F1F1 ;*/
+
+}
+.footerText-Content {
+    width:1170px ;
+    height:100% ;
+    margin:-5px auto auto ;
+}
+.box1,.box2,.box3{
+    width:100% ;
+    height:25.2px ;
+    text-align: center ;
+
+}
+p a{
+    color: #62a8ea;
+    font-size:14px ;
+}
+.box1 p a:hover{
+
+    text-decoration:underline ;
+
+}
+p{
+    font-size:14px ;
+    line-height:1.8 ;
+    color:#aaaaaa; ;
+}
